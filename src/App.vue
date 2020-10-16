@@ -1,28 +1,29 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app" class="app">
+    <wl-form-designer class="ft-form-designer">
+      <template slot="title-left">
+        <span class="form-designer-back" @click="handleBack">
+          <i class="el-icon-arrow-left"></i>
+        </span>
+        <span>请假</span>
+      </template>
+    </wl-form-designer>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  name: "app",
+  methods: {
+    handleBack() {},
+  },
+};
 </script>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style>
+html,
+body,
+.app {
+  height: 100%;
 }
 </style>
