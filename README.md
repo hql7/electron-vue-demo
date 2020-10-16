@@ -2,7 +2,10 @@
 
 表单编辑器桌面测试版
 
-![测试图](http://wlui.oss-cn-beijing.aliyuncs.com/demo-xuanchuan/wl-form-designer-electron.png)
+> 表单设计器
+![表单设计器](http://wlui.oss-cn-beijing.aliyuncs.com/demo-xuanchuan/wl-form-designer-electron.png)
+> 表单解释器
+![表单解释器](http://wlui.oss-cn-beijing.aliyuncs.com/demo-xuanchuan/wl-form-parser.png)
 
 ### 查看已经打包好的exe文件
 
