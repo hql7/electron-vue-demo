@@ -1,24 +1,19 @@
-# test-form
+# wl-form-designer 
 
-## Project setup
-```
-yarn install
-```
+表单编辑器桌面测试版
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+![测试图](http://wlui.oss-cn-beijing.aliyuncs.com/demo-xuanchuan/wl-form-designer-electron.png)
 
-### Compiles and minifies for production
-```
-yarn build
-```
+### 查看已经打包好的exe文件
 
-### Lints and fixes files
-```
-yarn lint
-```
+> 根目录下 wl-form-designer Setup 0.1.0.exe
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 尝试一下
+
+> git clone url
+
+> yarn install
+
+> yarn run eserve
+
+> yarn run ebuild
