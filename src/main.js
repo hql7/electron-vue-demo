@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import './plugins/element.js'
+import './plugins/vant.js'
 import './plugins/weilan-ui.js'
 
 Vue.config.productionTip = false
